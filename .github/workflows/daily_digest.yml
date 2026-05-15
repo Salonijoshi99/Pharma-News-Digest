@@ -2,7 +2,7 @@ name: Send Daily Pharma Digest
 
 on:
   schedule:
-    - cron: '50 18 * * *'  # Runs at 08:00 UTC daily
+    - cron: '30 3 * * *'  # Runs at 03:30 UTC daily
   workflow_dispatch:      # Allows you to run it manually for testing
 
 jobs:
